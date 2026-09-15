@@ -17,28 +17,6 @@ The application relies on core programming concepts to manage the data:
 2. **Input Validation**: The program uses a `while(true)` loop to ensure the user inputs a valid number of students (between 1 and 10) before proceeding, preventing out-of-bounds errors.
 3. **Null-Checking Logic**: To display the final report, the system iterates through the array and checks for `null` elements. If an array position is not null, it means the room is occupied and its data is printed.
 
-## How to Run
-
-1. Ensure you have Java installed on your machine.
-
-2. Open your terminal or command prompt and navigate to the project's root directory.
-
-3. Compile the Java files (assuming they are structured inside `application` and `entities` folders):
-
-   ```bash
-   javac application/Program.java entities/Rent.java
-   ```
-
-4. Run the compiled application:
-
-   ```bash
-   java application.Program
-   ```
-
-5. Follow the on-screen prompts to enter the rental data. 
-
-   **Note:** The program enforces the US locale to standardise inputs, though for this specific program it mainly affects the scanner's expected input formatting if any numbers were to be added in the future.
-
 ## Execution Example
 
 ```text
